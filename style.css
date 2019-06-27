@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#time {
+    font-size: 8rem;
+}
+h1 {
+    margin-bottom: 2rem; 
+}
+
+h2 {
+    margin-bottom: 0.6rem;
+    opacity: 0.6;
+}
