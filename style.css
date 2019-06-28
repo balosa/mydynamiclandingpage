@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-body {
+div {
     text-align: center;
     color: black;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -15,7 +15,9 @@ body {
     height: 100vh;
 }
 form {
-    margin-bottom: 9rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 #time {
