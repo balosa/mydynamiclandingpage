@@ -14,9 +14,12 @@ body {
     align-items: center;
     height: 100vh;
 }
+form {
+    margin-bottom: 9rem;
+}
 
 #time {
-    font-size: 8rem;
+    font-size: 6rem;
 }
 h1 {
     margin-bottom: 2rem; 
