@@ -10,13 +10,13 @@ const changeBgImg = () => {
     let today = new Date(),
         hour = today.getHours();
     if (hour < 12) { 
-        body.style.background = "url('../img/canon-photography-green-leaves-sunlight-light-1451237-pxhere.com.jpg')";
+        body.style.background = "url('/img/canon-photography-green-leaves-sunlight-light-1451237-pxhere.com.jpg')";
         greeting.innerHTML = 'Good Morning,';
     } else if (hour < 18) {
-        body.style.backgroundImage = "url('../img/landscape-tree-nature-forest-light-plant-839463-pxhere.com.jpg')";
+        body.style.backgroundImage = "url('/img/landscape-tree-nature-forest-light-plant-839463-pxhere.com.jpg')";
         greeting.innerHTML = 'Good Afternoon,';
     } else {
-        body.style.background = "url('../img/light-sky-night-atmosphere-mystical-evening-821186-pxhere.com.jpg')";
+        body.style.background = "url('/img/light-sky-night-atmosphere-mystical-evening-821186-pxhere.com.jpg')";
         greeting.innerHTML = 'Good Evening,';
         body.style.color = 'white';
     }
