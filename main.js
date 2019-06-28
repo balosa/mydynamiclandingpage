@@ -10,13 +10,13 @@ const changeBgImg = () => {
     let today = new Date(),
         hour = today.getHours();
     if (hour < 12) { 
-        body.style.background = "url('https://6cvyqa.db.files.1drv.com/y4pY04tpqqEhOwWxwwA7zb1Z4xIkkSHmgHy1ruM2glfKeIvJTuDUrsCAIjmeUH1JRkfiRo3trbMyyhk0lIhLaRkHNce1vlAXgp77GACvIG59_Vk4GxD7w5itofsVqK5nCaMovwFiP-IGirTeR6SUOgxLpG9UH23ST_PomEL-_avxLp32dLM68UHHT84ErRSvzmLqMtYmdLVl7oidd4HWvoGZg/morning.jpg?psid=1')";
+        body.style.background = "url('https://6cvyqa.db.files.1drv.com/y4mOcN4WwpSmrndBgqHgVoWSkhNNJknxbfpoyTfbafp5qXKNoLyI0zjK0EST66Zcsq-BB92mNPAIXTsDq5oqJGhVMHYUQiZLqxFGAnS5M7F7QFqEja2bRh9g7S6NkYvlFkJWZ5X8MLoIzhClagkWCO4VfNCBm215Tz0-DIvYZzoXnjGYVUfLRv2Fg6H4LS_IpnUcSqHiCMTYOI3vaRivJ_f-Q?width=1920&height=1080&cropmode=none')";
         greeting.innerHTML = 'Good Morning,';
     } else if (hour < 18) {
-        body.style.backgroundImage = "url('https://4vba2w.db.files.1drv.com/y4pAeNAzQ-wELaeqly8gcJwvTrgBqwFqTeOmVmIe3xkvlkLjPyh7XFH2WnnUGQ2Edu7IiNy9JQ731r__56uC9OxoynNvtZd6VoGEw1whC5FGBwdws_bAhCSuaXbvvEg97jDpxCJ60IcMs9HiYTerppKb8_e2fNI3-1lZlKU3CwVzizYfjLmxrn9hm_iUqaxz16wXO3lNGHFlumKRq8Q3smbXA/afternoon.jpg?psid=1')";
+        body.style.backgroundImage = "url('https://58vyqa.db.files.1drv.com/y4mI9VcY_MYi9QPuQxpb0xjE7LXWHopgnyE3uDJTMo1r-bNdPeVlqoy7RwusHepRops4fFi5Xq-t10-MOU3dvA0pTzQlqk4IXu1ZEqQ6FHJYI6_0ohJCnKdDQG9qNreVY5QCE4QuR77mJSqeuSOZY5-nd4OAE3PMiW2xC46Meb4JfF-a987y3NlDAzK4ZtT8vmb-g4ibjQ8eS1QiO8AKlR_oA?width=1920&height=1080&cropmode=none')";
         greeting.innerHTML = 'Good Afternoon,';
     } else {
-        body.style.background = "url('https://6mvyqa.db.files.1drv.com/y4p2paQsIBLfC46yVd1e4PB700612SYEzoKjwkLm1Oyt6VWAhTwwB4OADCZIQP_MhqG5cm7xo2n28p6RJoKjGUNfD1e6bHXQ5Iika0_j4mUA_fsjBKttFPqMp_9iyIC1azRS2cDqouw8UWMg4vfzja-AWfye01Gb_NP0XV0GV1tsn4g3LPjacsmI4TFd6MO69hRMR0MBAcEUec0gwCFq9CKcQ/night.jpg?psid=1')";
+        body.style.background = "url('https://6mvyqa.db.files.1drv.com/y4mPEX1T2CAngLf6kmRlSujEAGS-_NjjZzYwlCzzHg-Kc6kDjkNKL9oDex4MHgryBswO10i3c1LGmIYqA2CiKWTlN7KNL7R24eJtJF7WyQw23FT35Eb7otW3gfFTNDT6pkMqImPXRVGAscraMUNO7aOFxDRKoLXTueWIe7rz_e7IFf8XFmOmh07G6qFg4ceKNEb2-8fr99Dirc53okQTzZhZw?width=1920&height=1080&cropmode=none')";
         greeting.innerHTML = 'Good Evening,';
         body.style.color = 'white';
     }
