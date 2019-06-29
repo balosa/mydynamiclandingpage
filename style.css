@@ -24,12 +24,13 @@ body {
     opacity: 1;
     outline: none;
     color: white;
-    background: url('svg/search2.svg') no-repeat 99% 50%;
+    background: url('search2.svg') no-repeat 99% 50%;
     background-size: 1.5rem;
 }
 
 ::placeholder {
     color: mintcream;
+    opacity: 1;
 }
 
 #time {
