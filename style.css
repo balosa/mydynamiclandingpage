@@ -14,14 +14,22 @@ body {
     align-items: center;
     height: 100vh;
 }
-form input[type="text"]{
+/* form input[type="text"]{ */
+#search-bar {    
     margin-bottom: 12rem;
     font-size: 1rem;
     padding: 10px;
     border-radius: 25px;
-    border: 1px solid red;
-    opacity: 0.8;
+    border: 1px solid;
+    opacity: 1;
     outline: none;
+    color: white;
+    background: url('../svg/search2.svg') no-repeat 99% 50%;
+    background-size: 1.5rem;
+}
+
+::placeholder {
+    color: mintcream;
 }
 
 #time {
