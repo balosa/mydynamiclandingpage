@@ -11,7 +11,7 @@ const changeBgImg = () => {
     let today = new Date(),
         hour = today.getHours();
     if (hour < 12) {
-        body.style.background = "url('https://6cvyqa.db.files.1drv.com/y4mOcN4WwpSmrndBgqHgVoWSkhNNJknxbfpoyTfbafp5qXKNoLyI0zjK0EST66Zcsq-BB92mNPAIXTsDq5oqJGhVMHYUQiZLqxFGAnS5M7F7QFqEja2bRh9g7S6NkYvlFkJWZ5X8MLoIzhClagkWCO4VfNCBm215Tz0-DIvYZzoXnjGYVUfLRv2Fg6H4LS_IpnUcSqHiCMTYOI3vaRivJ_f-Q?width=1920&height=1080&cropmode=none')";
+        body.style.background = "url('https://6cvyqa.db.files.1drv.com/y4mOcN4WwpSmrndBgqHgVoWSkhNNJknxbfpoyTfbafp5qXKNoLyI0zjK0EST66Zcsq-BB92mNPAIXTsDq5oqJGhVMHYUQiZLqxFGAnS5M7F7QFqEja2bRh9g7S6NkYvlFkJWZ5X8MLoIzhClagkWCO4VfNCBm215Tz0-DIvYZzoXnjGYVUfLRv2Fg6H4LS_IpnUcSqHiCMTYOI3vaRivJ_f-Q?width=1920&height=1080&cropmode=none') no-repeat";
         greeting.innerHTML = 'Good Morning,';
         searchBar.style.backgroundColor = 'rgba(139,178,1,0.3)';
         searchBar.style.borderColor = 'green';
