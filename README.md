@@ -1,2 +1,2 @@
 # mydynamiclandingpage 
-by folowing Brad Traversy's tutorial
+by following Brad Traversy's tutorial
