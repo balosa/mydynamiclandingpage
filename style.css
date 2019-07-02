@@ -7,7 +7,7 @@
 body {
     text-align: center;
     color: mintcream;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Play', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +17,7 @@ body {
 /* form input[type="text"]{ */
 #search-bar {    
     margin-bottom: 12rem;
+    font-family: 'Play', sans-serif;
     font-size: 1rem;
     padding: 10px;
     border-radius: 25px;
@@ -30,6 +31,7 @@ body {
 
 ::placeholder {
     color: mintcream;
+    font-family: 'Play', sans-serif;
     opacity: 1;
 }
 
@@ -44,4 +46,19 @@ h1 {
 h2 {
     margin-top: 0.5rem;
     opacity: 0.8;
+}
+
+#focus {
+    border-bottom: solid 1px mintcream;
+    opacity: 0.8;
+}
+
+@media(max-width: 800px) {
+    #time {
+        font-size: 4rem;
+    }
+    #search-bar {
+        margin-bottom: 6rem;
+        font-size: 0.5rem;
+    }
 }
